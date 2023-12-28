@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "icon" href = "images/icon.jpg" type = "image/x-icon">
+  <title>Tarot By Chaam</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Montserrat:wght@700&family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&family=Roboto+Mono:wght@700&family=Vina+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand:wght@700&family=Roboto&family=Roboto+Mono:wght@200;300;700&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Quicksand:wght@700&family=Roboto&family=Roboto+Mono:wght@200;300;700&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/product.css">
+</head>
+<body>
+  <div class="header">
+    <div class="div-name">
+     <a class="name">
+       <p class="tarot">TAROT</p>
+       <p class="bychaam">BYCHAAM</p>
+     </a>
+    </div>    
+     <div class="div-homepage">
+       <a href="tarotbychaam.html" class="homepage">HOME</a>
+     </div>
+     <div class="div-all-product">
+      <a class="all-product" id="myProduct" onclick="product()">PRODUCT</a>
+    </div>
+     <div class="div-card">
+       <a href="#section3" class="card" id="myCard" onclick="card()">CARD</a>
+     </div>
+     <div class="div-book">
+       <a href="#section4" class="book" id="myBook" onclick="book()">BOOK</a>
+     </div>
+     <div class="div-sign-log">
+       <a class="sign-log-button" href="in-up.html" target="_self">LOG IN/REGISTER</a>
+     </div>
+   </div>
+
+   <div id="review" class=product-grid-all>
+    <div id="myP1" class="product-preview" onclick="myFunction1()">
+      <div class="image">
+        <img  class="picture" src="images/card1.webp">
+      </div>
+      <div class="product-grid">
+        <p id="c1" class="product-title">The Rider Tarot Deck</p>
+ 
+      </div>
+      </div>
+      
+      <div id="myP2" class="product-preview"  onclick="myFunction2()">
+        <div class="image">
+          <img id="c2" class="picture" src="images/card2.webp">
+        </div>
+        <div class="product-grid">
+          <p class="product-title"> The Smith-Waite Tarot Deck Centennial</p>
+         
+        
+        </div>
+    </div>
+
+      <div id="myP3" class="product-preview" onclick="myFunction3()">
+        <div class="image">
+          <img id="c3" class="picture" src="images/card3.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 90px;">Mystical Manga Tarot</p>
+          
+        
+        </div>
+        </div>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+   <div id="review" class="product-grid-all">
+    <div id="myP4" class="product-preview" onclick="myFunction4()">
+      <div class="image">
+        <img id="c4" class="picture" src="images/card4.jpg">
+      </div>
+      <div class="product-grid">
+        <p class="product-title" style="margin-left: 90px;"> Light Seer’s Tarot</p>
+        
+ 
+      </div>
+      </div>
+      
+      <div id="myP5" class="product-preview" onclick="myFunction5()">
+        <div class="image">
+          <img id="c5" class="picture" src="images/card5.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 95px;"> Shadowscapes Tarot</p>
+         
+        
+        </div>
+    </div>
+
+      <div id="myP6" class="product-preview" onclick="myFunction6()">
+        <div class="image">
+          <img id="c6" class="picture" src="images/card6.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 83.5px;">Radiant Rider-Waite Tarot </p>
+        </div>
+        </div>
+
+   </div>
+
+
+
+   <div id="review" class="product-grid-all">
+    <div id="myP7" class="product-preview" onclick="myFunction7()">
+      <div class="image">
+        <img class="picture" src="images/card7.jpg">
+      </div>
+      <div class="product-grid">
+        <p id="c7" class="product-title" style="margin-left: 21px;">Deviant Moon Tarot Borderless Edition</p>
+      
+       
+      </div>
+      </div>
+      
+      <div id="myP8" class="product-preview" onclick="myFunction8()">
+        <div class="image">
+          <img id="c8" class="picture" src="images/card8.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 118px;"> Witches Tarot</p>
+          
+        </div>
+    </div>
+
+      <div id="myP9" class="product-preview"  onclick="myFunction9()">
+        <div class="image">
+          <img id="c9" class="picture" src="images/card10.webp">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 40px;">Ethereal Visions – Illuminated Tarot
+          </p>
+        </div>
+        </div>
+   </div>
+
+
+
+
+
+
+   <div id="review" class="product-grid-all">
+    <div id="myP10" class="product-preview">
+      <div class="image">
+        <img class="picture" src="images/book1.jpg">
+      </div>
+      <div class="product-grid">
+        <p id="b1" class="product-title" style="margin-left: 117px;">Tarot Journey</p>
+      
+       
+      </div>
+      </div>
+      
+      <div id="myP11" class="product-preview">
+        <div class="image">
+          <img id="b2" class="picture" src="images/book2.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 95px;"> Introduction to Tarot</p>
+          
+        </div>
+    </div>
+
+      <div id="myP12" class="product-preview">
+        <div class="image">
+          <img id="b3" class="picture" src="images/book3.png">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 120px;">Tarot Dictionary
+          </p>
+        </div>
+        </div>
+   </div>
+   <div id="review" class="product-grid-all">
+    <div id="myP13" class="product-preview">
+      <div class="image">
+        <img class="picture" src="images/book4.jpg">
+      </div>
+      <div class="product-grid">
+        <p id="b4" class="product-title" style="margin-left: 150px;">Tarot</p>
+      
+       
+      </div>
+      </div>
+      
+      <div id="myP14" class="product-preview">
+        <div class="image">
+          <img id="b5" class="picture" src="images/book5.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 125px;"> Tarot Diary</p>
+          
+        </div>
+    </div>
+
+      <div id="myP15" class="product-preview">
+        <div class="image">
+          <img id="b6" class="picture" src="images/book6.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 120px;">Tarot And You
+          </p>
+        </div>
+        </div>
+   </div>
+
+
+   <div id="review" class="product-grid-all">
+    <div id="myP16" class="product-preview">
+      <div class="image">
+        <img class="picture" src="images/book7.png">
+      </div>
+      <div class="product-grid">
+        <p id="b7" class="product-title" style="margin-left: 90px;">Overview of Tarot</p>
+      
+       
+      </div>
+      </div>
+      
+      <div id="myP17" class="product-preview">
+        <div class="image">
+          <img id="b8" class="picture" src="images/book8.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 129px;"> Daily Tarot</p>
+          
+        </div>
+    </div>
+
+      <div id="myP18" class="product-preview">
+        <div class="image">
+          <img id="b9" class="picture" src="images/book9.jpg">
+        </div>
+        <div class="product-grid">
+          <p class="product-title" style="margin-left: 85px;">Tarot - Atonement Card
+          </p>
+        </div>
+        </div>
+   </div>
+
+
+
+  
+   <div id="re1" style="margin-left: 150px; display: none;" class="contain">
+
+      <div>
+       
+        <img  class="mySlides" src="images/card1b.png" style="width: 270px;">
+        <img class="mySlides" src="images/card1c.png" style="width: 270px;">
+        <img class="mySlides" src="images/card1d.png" style="width:270px;">
+      
+        <button  style="margin-left:-940px;" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button style="margin-left: 10px;" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+       
+      </div>
+      <div class="review1">
+       
+        <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217);">The Rider Tarot Deck
+        </p>
+        <p>All Audiences Can Use These Standard Tarot Cards. <br>
+          Ideal for tarot card readers of all skill levels, this is one of the most renowned and well-known classic decks available.<br>
+          Tarot card standards are fully depicted by the vibrantly colored cards, which are also setting the standard for other tarot decks on the market.</p>
+         
+      </div>
+   
+  </div>
+ 
+<div id="re2" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card2b.png" style="width: 270px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: 50px;">The Smith-Waite Tarot Deck Centennial
+    </p>
+    <p>Meaning, Authenticity, and Integrity of the Anniversary Edition.<br>
+      In honor of the 100th anniversary of Rider Waite Tarot's debut, this tarot deck is a limited edition. The cards have a classic vibe and primarily feature Pixie's chosen dark tones.
+      </p>
+     
+  </div>
+ 
+
+</div>
+
+
+
+
+
+<div id="re3" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card3b.jpg" style="width: 320px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: 130px;">Mystical Manga Tarot
+    </p>
+    <p>
+      Mystical Manga That Adheres to Conventional Tarot Standards.<br>The manga-style deck of cards features characters with a lot of energy, a unique Plex, and an enigmatic world inspired by Japanese comics.
+      </p>
+     
+  </div>
+ 
+
+</div>
+
+
+
+<div id="re4" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card4b.png" style="width: 350px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: 110px;">Light Seer’s Tarot
+    </p>
+    <p>Opening the Gates of Darkness and Soul Light.<br>
+      Using elements from dream symbols, archetypes, and life stories in a contemporary, bohemian, and intuitive style, the deck was designed by renowned author Chris Anne to depict both the light and dark sides. evil innate in human nature.
+      
+      </p>
+     
+  </div>
+</div>
+
+
+<div id="re5" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card5b.jpg" style="width: 270px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: 110px;">Shadowscapes Tarot
+    </p>
+    <p>Wonderland World: An Unusual Blend of Culture.<br>
+      Inspired by folklore, myths, and fairy tales from all over the world, the deck conjures up a wonderful world full of endearing pictures of fairies and dancing mermaids.
+      
+      </p>
+     
+  </div>
+</div>
+
+
+<div id="re6" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card6b.jpg" style="width: 270px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: -100px;">Radiant Rider-Waite Tarot
+    </p>
+    <p>Vibrant Colors, Powerful Messages.<br>
+      In order to make the cards stand out more, the tarot deck uses vivid tones and bright border colors. The cards are designed in yellow and orange and have small details set within a three-dimensional arrangement of images.
+      </p>
+     
+  </div>
+</div>
+
+
+
+<div id="re7" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card7b.jpeg" style="width: 450px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: -100px;">Deviant Moon Tarot Borderless Edition
+    </p>
+    <p>Top Most Well-Known Decks in the Diverse Tarot Community.<br>
+      The author's imagination, after extensive observation at the cemetery, gave rise to the tarot deck's peculiar and surreal, if not gloomy, style.
+      
+      </p>
+     
+  </div>
+</div>
+
+
+
+<div id="re8" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card8b.jpg" style="width: 300px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: -100px;">Witches Tarot
+    </p>
+    <p>European Scene, Magnificent Witch Image.<br>
+      Author Ellen Dugan, a seasoned reader from a witch family, and artist Mark Evans, renowned for his digital drawing style, have collaborated to create this unique tarot deck.
+      
+      </p>
+     
+  </div>
+</div>
+
+
+<div id="re9" style="margin-left: 150px; display: none;" class="contain">
+  <div>
+    <img src="images/card9b.jpeg" style="width: 380px;">
+  </div>
+  <div class="review1">
+       
+    <p style="font-size: 22px; font-weight: bold; color: rgb(153, 86, 217); margin-top: -100px;">Ethereal Visions – Illuminated Tarot
+    </p>
+    <p>Exquisite workmanship in every aspect.<br>
+      Inspired by the Art Nouveau movement, the author combined spiritual and artistic elements to create the tarot deck. There are 80 cards in the product, plus 2 extra cards to the main set.<br>
+
+
+
+      Every card is exquisitely detailed, painstakingly drawn and colored by hand, and enhanced with stylized fonts to produce a striking visual impact.
+      
+      </p>
+     
+  </div>
+</div>
+
+<script src="product.js"></script>
+</body>
+</html>

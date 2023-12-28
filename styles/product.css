@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  font-family: Roboto;
+}
+.header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+  box-shadow: 0 0 0 0.2px rgba(235, 235, 235, 0.8);
+}
+.div-name {
+  margin-left: 20px;
+}
+.tarot {
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-bottom: -10px;
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(168, 16, 168);
+  font-size: 24px;
+  font-weight: bold;
+}
+.bychaam {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.div-homepage {
+  margin-top: 0px;
+  margin-left: 120px;
+  width: 90px;
+  cursor: pointer;
+}
+.homepage {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  border-radius: 32px;
+}
+.homepage:hover {
+  background-color: rgb(214, 143, 214);
+  border-radius: 32px;
+  padding: 15px;
+  font-size: 15px;
+}
+.div-all-product {
+  margin-top: 0px;
+  width: 130px;
+  cursor: pointer;
+}
+.all-product {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  background-color:rgb(168, 75, 168);
+  color: white;
+  border-radius: 32px;
+}
+.all-product:hover {
+  background-color: rgb(214, 143, 214);
+  border-radius: 32px;
+  padding: 15px;
+  font-size: 15px;
+}
+.div-card {
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 130px;
+  cursor: pointer;
+}
+.card {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.card:hover {
+  background-color: rgb(214, 143, 214);
+  border-radius: 32px;
+  padding: 15px;
+  font-size: 15px;
+}
+.div-book {
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 130px;
+  cursor: pointer;
+}
+.book {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.book:hover {
+  background-color: rgb(214, 143, 214);
+  border-radius: 32px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.div-sign-log {
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 180px;
+  cursor: pointer;
+}
+.sign-log-button{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.sign-log-button:hover {
+  background-color: rgb(214, 143, 214);
+  border-radius: 32px;
+  padding: 15px;
+  font-size: 15px;
+}
+.div-image {
+  width: 350px;
+}
+.product-grid-all {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.picture {
+  margin-top: 130px;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.product-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.product-preview {
+  display: inline-block;
+  margin-left: 75px;
+  cursor: pointer;
+}
+
+#c1 {
+  margin-left: 88px;
+}
+#c2 {
+  margin-left: -25px;
+}
+/*#myP1:hover,
+#myP2:hover,
+#myP3:hover,
+#myP4:hover,
+#myP5:hover,
+#myP6:hover,
+#myP7:hover,
+#myP8:hover,
+#myP9:hover,
+#myP10:hover,
+#myP11:hover,
+#myP12:hover,
+#myP13:hover,
+#myP14:hover,
+#myP15:hover,
+#myP16:hover,
+#myP17:hover,
+#myP18:hover {
+  
+}
+*/
+
+.mySlides {display:none;}
+
+.review1 {
+  margin-top: -380px;
+  font-size: 18px;
+  line-height: 50px;
+  margin-left: 400px;
+  width: 700px;
+  z-index: 100;
+  background-color: white;
+
+}
